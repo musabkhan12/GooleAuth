@@ -1,0 +1,28 @@
+firstly we set up our basics in it
+
+then here we use ejs  
+EJS is a tool for generating web pages that can include dynamic data and can share templated pieces with other web pages
+1:initially it was giving me an error of proxy then i try to solve it then finally its solve after when i shut down and 
+restart pc 
+
+
+
+
+error :
+1: sab se pehle ye error aya (error 400:indirect uri missmatch )
+then mae ne console google api me credential me myauth me Authorized JavaScript origins ko correct kiya
+jo ki tha ( http://localhost:3000 ) yahi server mae ne create kiya tha aur yahi waha hona chahiye tha aur isi wajah se uri mismatch ka error
+tha jo solve ho gaya
+
+2:fir ye aya  'ET http://localhost:3000/favicon.ico 404 (Not Found)' to humne fir 
+ (<link rel="shortcut icon" href="#">) this loc ko insert kiya head me html ke jo ke hai index.ejs
+
+3:kabhi cookies ka bhi error ho sakta to clear chrome image and video cache
+
+/////
+
+ab code working hai and login ho raha hai but there is a problem that whenever i once lohin it use those credential every time
+aur jab mujhe kisi aur gmails login karna hota hai to mujhe console google pe ja kar sign out karne ke baad mujhe fir wo dusre gmails show kar rha hai
+mujhe testing ke liye gmails manually add karne pad rahe console google api me Oauth consent screen me test user me 
+
+
